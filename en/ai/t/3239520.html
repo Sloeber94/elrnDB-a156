@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7022 VDC - Functional description · Alfa 156</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods. Electrical equipment &gt; Electrical functions &gt; E70 Vehicle electronic systems &gt; E7022 VDC &gt; E7022 VDC - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Alfa 156 workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="3233696.html">Electrical equipment</a> › <a href="3233697.html">Electrical functions</a> › <a href="3234720.html">E70 Vehicle electronic systems</a> › <a href="3234797.html">E7022 VDC</a> › <span>E7022 VDC - Functional description</span></nav>
+<h1><span class="code">E7022</span> VDC - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; Electrical functions &gt; E70 Vehicle electronic systems &gt; E7022 VDC &gt; E7022 VDC - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-a156/en/#/3239520">https://sloeber94.github.io/elrnDB-a156/en/#/3239520</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Functional description</h3><p>ABS electronic control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                               is
+supplied (at pins 12 and 6) directly by the battery via a line protected
+by the ABS maxifuse, located directly on the battery 
+                              
+                              
+                              
+                              
+                              
+                              <strong>A1</strong>
+                              
+                              
+                              
+                              
+                              
+                               -
+connector C.</p><p>The supply controlled by the ignition (15/54)
+reaches pin 23 from the line protected by fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>F6</strong>
+                              
+                              
+                              
+                              
+                              
+                               of the
+additional fuse box 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B98 A</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The control unit is earthed via pins 1 and
+5.</p><p>The four sensors 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K70, K71, K75, K76</strong>
+                              
+                              
+                              
+                              
+                              
+                              send
+wheel speed signals to pins 12-28, 16-15, 14-13 and 30-31 of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                               respectively.</p><p>Brake pedal switch 
+                              
+                              
+                              
+                              
+                              
+                              <strong>I30</strong>
+                              
+                              
+                              
+                              
+                              
+                               sends a &#x27;pedal
+depressed&#x27; enablement signal to pin 32 of control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                              :
+the ABS cannot intervene unless the brake pedal is pressed.</p><p>The control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                               receives a &#x27;pedal
+released&#x27; signal, double switch, at pin 20.</p><p>The &#x27;ASR OFF&#x27; control button on panel 
+                              
+                              
+                              
+                              
+                              
+                              <strong>H35</strong>
+                              
+                              
+                              
+                              
+                              
+                               sends
+a deactivation signal to pin 28 of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                              , while pin 27 relays
+a signal that turns on an LED on panel 
+                              
+                              
+                              
+                              
+                              
+                              <strong>H35</strong>
+                              
+                              
+                              
+                              
+                              
+                               when the system
+is off.</p><p>Steering sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K58</strong>
+                              
+                              
+                              
+                              
+                              
+                               is supplied by
+ABS control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                               at pin 39 and receives a reference earth
+from pin 21: the signal that detects sudden changes in steering
+direction is sent via the CAN line to engine control unit  
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               and ABS
+control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                               (pins 24 and 40).</p><p>The CAN line that connects 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                               (from
+pins 24 and 40) to 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               allows the ASR function to notify
+the engine management control unit of excessive engine power.  this
+line is not direct, but passes through the steering sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K58</strong><a href="3234515.html">E5030 PETROL ENGINE ELECTRONIC MANAGEMENT</a>
+                              
+                              
+                              
+                              
+                              
+                              , 
+
+                              
+                              
+                              
+                              
+                              
+                              <a href="3234559.html">E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT</a>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>Yaw sensor  
+                              
+                              
+                              
+                              
+                              
+                              <strong>K74</strong>
+                              
+                              
+                              
+                              
+                              
+                               is supplied from
+ABS control unit  
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                               at pin 39, while it receives a reference
+earth from pin 21: control and command signals are exchanged with
+ABS control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                              , at pins 8, 9, 10 and 41.</p><p>Pressure sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K72</strong>
+                              
+                              
+                              
+                              
+                              
+                               is supplied from
+ABS control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                               at pin 42, while it receives a reference
+earth from pin 25: the pressure detection signal is sent to pin
+26 of  ABS control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>If the control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                              detects problems
+relating to the ABS function, it sends the speedometer instrument 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E10</strong>
+                              
+                              
+                              
+                              
+                              
+                               a
+signal from pin 22, which lights up the &#x27;ABS failure&#x27; warning light;
+the lighting up of the &#x27;VDC&#x27; warning light is also managed via the
+same line; If the problems concern the EBD function, the handbrake
+warning light is lit up from pin 38 of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                              .; these are earth
+signals, and they cause the warning lights to come on, becuase the
+instrument 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E10</strong>
+                              
+                              
+                              
+                              
+                              
+                               supply is controlled by the ignition (INT)
+from the line protected by fuse F4 of the additional fuse box 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B99B</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>Pin 37 of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                               produces a speedometer
+signal (average speed of all four wheels) which is sent to the instrument
+ panel 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E10</strong><a href="3234310.html">E4021 SPEEDOMETER</a>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The autodiagnostic data can be read by connecting
+to connector 
+                              
+                              
+                              
+                              
+                              
+                              <strong>R10</strong>
+                              
+                              
+                              
+                              
+                              
+                              : it receives signals from pin 11 of the
+control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M50</strong>
+                              
+                              
+                              
+                              
+                              
+                               via the special diagnostic line.</p></section>
+<h2>Topics linked from this page (3)</h2><ul><li><a href="3234310.html">E4021 SPEEDOMETER</a> <span class="meta">chapter (index of subtopics) · all engines; production: fino a 03/98, da 04/98 a 02/99, da 03/99 a 01/00, da 02/00 a 01/01</span></li><li><a href="3234515.html">E5030 PETROL ENGINE ELECTRONIC MANAGEMENT</a> <span class="meta">chapter (index of subtopics) · engines: 2.5 V6; production: fino a 03/98, da 04/98 a 02/99, da 03/99 a 01/00, da 02/00 a 01/01; only with equipment: Mechanical gearbox</span></li><li><a href="3234559.html">E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT</a> <span class="meta">chapter (index of subtopics) · engines: 1.9 JTD 8v ; production: fino a 03/98, da 04/98 a 02/99, da 03/99 a 01/00, da 02/00 a 01/01</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-a156/en/">https://sloeber94.github.io/elrnDB-a156/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

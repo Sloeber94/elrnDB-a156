@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E5010 STARTING AND RECHARING - Functional description · Alfa 156</title>
+<meta name="description" content="functional description (how the circuit works). engines: 3.2 V6; production: da 03/02 a 09/03, da 10/03; only with equipment: Smart gearbox. Electrical equipment &gt; Electrical functions &gt; E50 Engine control and management systems &gt; E5010 STARTING AND RECHARING &gt; E5010 STARTING AND RECHARING - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Alfa 156 workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="3233696.html">Electrical equipment</a> › <a href="3233697.html">Electrical functions</a> › <a href="3234398.html">E50 Engine control and management systems</a> › <a href="3234427.html">E5010 STARTING AND RECHARING</a> › <span>E5010 STARTING AND RECHARING - Functional description</span></nav>
+<h1><span class="code">E5010</span> STARTING AND RECHARING - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; Electrical functions &gt; E50 Engine control and management systems &gt; E5010 STARTING AND RECHARING &gt; E5010 STARTING AND RECHARING - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 3.2 V6; production: da 03/02 a 09/03, da 10/03; only with equipment: Smart gearbox</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-a156/en/#/3239428">https://sloeber94.github.io/elrnDB-a156/en/#/3239428</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 3.2 V6; production: da 03/02 a 09/03, da 10/03; only with equipment: Smart gearbox</p><h3>Functional description</h3><p>When the ignition key for the switch 
+                              
+                              
+                              
+                              
+                              
+                              <strong>H1</strong>
+                              
+                              
+                              
+                              
+                              
+                               is
+turned to the extreme position (AVV) [START], the solenoid winding
+(pin 50) of the starter motor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>A20</strong>
+                              
+                              
+                              
+                              
+                              
+                               is supplied.</p><p>This supply comes from the battery via the
+line of maxifuse IGN of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B99</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>This supply is only present if there is
+a safety signal - from pin 42 of connector A of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M54</strong>
+                              
+                              
+                              
+                              
+                              
+                               - which
+energizes the starting enablement relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J05</strong>
+                              
+                              
+                              
+                              
+                              
+                              , which thus supplies
+power to pin 50 of the starter motor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>A20</strong>
+                              
+                              
+                              
+                              
+                              
+                              ;   pin 76 of connector
+B of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M54</strong>
+                              
+                              
+                              
+                              
+                              
+                               receives the starting request signal.</p><p>Pin 30 of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>A20</strong>
+                              
+                              
+                              
+                              
+                              
+                              , the actual starter
+motor, receives the voltage coming directly from the battery 
+                              
+                              
+                              
+                              
+                              
+                              <strong>A1</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The direct current generated by the alternator 
+
+                              
+                              
+                              
+                              
+                              
+                              <strong>A10</strong>
+                              
+                              
+                              
+                              
+                              
+                               (pin B+) is sent to the battery 
+                              
+                              
+                              
+                              
+                              
+                              <strong>A1</strong>
+                              
+                              
+                              
+                              
+                              
+                               through motor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>A20</strong>
+                              
+                              
+                              
+                              
+                              
+                              .
+When the alternator is not turning and therefore not recharging
+the battery, an earth signal is sent from pin D+ to the rev counter module 
+
+                              
+                              
+                              
+                              
+                              
+                              <strong>E30, pin 7.</strong></p><p>Module 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E30 receives a supply controlled
+by the ignition (INT) at pin 13 from fuse F4 of the additional fuse
+box B98B: when this signal arrives, the &#x27;recharging&#x27; warning light
+comes on.</strong></p><p>When the engine has been started up this
+signal becomes 12 V and the warning light goes out.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-a156/en/">https://sloeber94.github.io/elrnDB-a156/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E5020 ENGINE COOLING - Functional description · Alfa 156</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.4 JTD 20v; all production periods. Electrical equipment &gt; Electrical functions &gt; E50 Engine control and management systems &gt; E5020 ENGINE COOLING &gt; E5020 ENGINE COOLING - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Alfa 156 workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="3233696.html">Electrical equipment</a> › <a href="3233697.html">Electrical functions</a> › <a href="3234398.html">E50 Engine control and management systems</a> › <a href="3234511.html">E5020 ENGINE COOLING</a> › <span>E5020 ENGINE COOLING - Functional description</span></nav>
+<h1><span class="code">E5020</span> ENGINE COOLING - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; Electrical functions &gt; E50 Engine control and management systems &gt; E5020 ENGINE COOLING &gt; E5020 ENGINE COOLING - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.4 JTD 20v; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-a156/en/#/3239449">https://sloeber94.github.io/elrnDB-a156/en/#/3239449</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.4 JTD 20v; all production periods</p><h3>Functional description</h3><p>The supply for the two fans 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N11</strong>
+                              
+                              
+                              
+                              
+                              
+                               and 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N12</strong>
+                              
+                              
+                              
+                              
+                              
+                               arrives
+directly from the battery from the lines of the two maxifuses FAN1
+and FAN2 of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B99</strong>
+                              
+                              
+                              
+                              
+                              
+                              : the fans operate when they receive an earth
+command.</p><p>The relays 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J30</strong>
+                              
+                              
+                              
+                              
+                              
+                              , 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J31</strong>
+                              
+                              
+                              
+                              
+                              
+                               and 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J32</strong>
+                              
+                              
+                              
+                              
+                              
+                              ,
+specific to the cooling system, receive supply to their coils from
+the direct line (EFI) protected by fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>F5</strong>
+                              
+                              
+                              
+                              
+                              
+                               of the additional
+fuse box 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B98A</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>They are energized by an earth signal coming
+from the engine control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>If the coolant temperature reaches the first
+temperature stage, or the 4-stage pressure switch 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K10 (pin 3)
+indicates to control unit M10 - pin 42 of connector A - that the
+first pressure stage has been reached, control unit M10 sends an
+earth signal to 1st speed relay J30 from pin 90 of connector A,
+which energizes the coil.</strong>
+                              
+                              
+                              
+                              
+                              
+                               The relay then sends an earth which,
+via the additional resistors 
+                              
+                              
+                              
+                              
+                              
+                              <strong>O10</strong>
+                              
+                              
+                              
+                              
+                              
+                               and 
+                              
+                              
+                              
+                              
+                              
+                              <strong>O12</strong>
+                              
+                              
+                              
+                              
+                              
+                              , operates
+both fans 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N11</strong>
+                              
+                              
+                              
+                              
+                              
+                               and 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N12</strong>
+                              
+                              
+                              
+                              
+                              
+                               which rotate at the first (slow)
+speed.</p><p>If the engine coolant reaches a higher temperature
+level, or the 4 stage pressure switch 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K10 (pin 6) signals to
+the control unit M10 - pin 81 of connector A - that a higher pressure
+level has been reached, then the control unit M10 sends an earth
+signal, pin 69 of connector A,  to the two 2nd speed fan relays
+J31 and J32 which energize the coils.</strong>
+                              
+                              
+                              
+                              
+                              
+                               The two relays then send
+an earth directly to the two fans 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N11</strong>
+                              
+                              
+                              
+                              
+                              
+                               and 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N12</strong>
+                              
+                              
+                              
+                              
+                              
+                               which
+rotate at maximum speed.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-a156/en/">https://sloeber94.github.io/elrnDB-a156/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7030 AIRBAG - Functional description · Alfa 156</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods; only with equipment: Air Bag laterale. Electrical equipment &gt; Electrical functions &gt; E70 Vehicle electronic systems &gt; E7030 AIRBAG &gt; E7030 AIRBAG - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Alfa 156 workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="3233696.html">Electrical equipment</a> › <a href="3233697.html">Electrical functions</a> › <a href="3234720.html">E70 Vehicle electronic systems</a> › <a href="3234805.html">E7030 AIRBAG</a> › <span>E7030 AIRBAG - Functional description</span></nav>
+<h1><span class="code">E7030</span> AIRBAG - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; Electrical functions &gt; E70 Vehicle electronic systems &gt; E7030 AIRBAG &gt; E7030 AIRBAG - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods; only with equipment: Air Bag laterale</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-a156/en/#/3239522">https://sloeber94.github.io/elrnDB-a156/en/#/3239522</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods; only with equipment: Air Bag laterale</p><h3>Functional description</h3><p>The control unit for the Air Bag system 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M60</strong>
+                              
+                              
+                              
+                              
+                              
+                               is
+controlled by the ignition (INT) at pin 5 from a line protected
+by shunt fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B32</strong>
+                              
+                              
+                              
+                              
+                              
+                               up to 2/99 or by fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>F5</strong>
+                              
+                              
+                              
+                              
+                              
+                               of supplementary
+fuse box 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B98A</strong>
+                              
+                              
+                              
+                              
+                              
+                               from 2/99.</p><p>Pin 40 is connected to a specific earth 
+                              
+                              
+                              
+                              
+                              
+                              <strong>C50</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>When frontal impact of a certain severity (depending on the software setting) is detected, the control unit sends control signals to set off the modules:</p><ul><li>to driver&#x27;s airbag <strong>Q9</strong> , through a clockspring on
+the steering wheel <strong>Q10</strong> (from pins 11 and 10):</li><li>to passenger side air bag <strong>Q11</strong> (from pins 13 and
+14);</li><li>to the pretensioners on the driver&#x27;s side <strong>Q20</strong> (from
+pins 1 and 2) and the passenger side <strong>Q21</strong> (from pins 3 and
+4).</li></ul></section><section class="block"><p class="applies">Applies to: all engines; production: fino a 03/98, da 04/98 a 02/99, da 03/99 a 01/00; only with equipment: Air Bag laterale</p><h3>Functional description</h3><p>Pins 15 and 37 are connected to the sensor
+in the seat for disabling the passenger Air Bag 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K65</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods; only with equipment: Air Bag laterale</p><h3>Functional description</h3><p>Pins 6 and 12 are connected to the passenger
+Air Bag disabling switch 
+                              
+                              
+                              
+                              
+                              
+                              <strong>H75</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>Side impact detection sensors 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K66</strong>
+                              
+                              
+                              
+                              
+                              
+                               (driver&#x27;s
+side) and 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K67</strong>
+                              
+                              
+                              
+                              
+                              
+                               (passenger side) send signals to pins 22, 24
+and 23, 25 respectively of control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M60</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>When side impact of a certain severity (dependent on the software setting) is detected, the control unit sends control signals to set off the modules:</p><ul><li>to the driver&#x27;s side Air Bag <strong>Q30</strong> (from pins 16
+and 17);</li><li>to the passenger side Air Bag <strong>Q31</strong> (from pins 18
+and 19);</li></ul><p>The two side Air Bags are connected to earth 
+
+                              
+                              
+                              
+                              
+                              
+                              <strong>C50</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>When the system autodiagnostic function
+detects a failure or an impact is detected, the control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M60</strong>
+                              
+                              
+                              
+                              
+                              
+                               sends
+a signal from pin 7 for the &quot;Air Bag failure&quot; warning
+light, located in check instrument 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E30</strong>
+                              
+                              
+                              
+                              
+                              
+                              . This signal turns
+on the warning light because instrument 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E30</strong>
+                              
+                              
+                              
+                              
+                              
+                               is supplied via
+the ignition (INT) by a line protected by control lighting fuse
+                              
+                              
+                              
+                              
+                              
+                              <strong>B11</strong>
+                              
+                              
+                              
+                              
+                              
+                              up
+to 2/99 or from fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>F4</strong>
+                              
+                              
+                              
+                              
+                              
+                               of supplementary fuse box 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B98B</strong>
+                              
+                              
+                              
+                              
+                              
+                               from
+2/99.</p><p>Self-diagnostic data may be read by connecting
+the unit to connector 
+                              
+                              
+                              
+                              
+                              
+                              <strong>R10</strong>
+                              
+                              
+                              
+                              
+                              
+                              : this receives signals from pin
+9 of control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M60</strong>
+                              
+                              
+                              
+                              
+                              
+                               through the appropriate tester line.</p><p>Pin 33 of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M60</strong>
+                              
+                              
+                              
+                              
+                              
+                               sends the signal for
+the &quot;passenger Air Bag disabled&quot; warning light, located
+in the speedometer 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E10</strong>
+                              
+                              
+                              
+                              
+                              
+                              . This signal causes the warning light
+to come on because instrument 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E30</strong>
+                              
+                              
+                              
+                              
+                              
+                               is supplied via the ignition
+(INT) from a  line protected by the control light fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B11</strong>
+                              
+                              
+                              
+                              
+                              
+                               up
+to 2/99 or by fuse
+                              
+                              
+                              
+                              
+                              
+                              <strong>F4</strong>
+                              
+                              
+                              
+                              
+                              
+                              of supplementary fuse box
+                              
+                              
+                              
+                              
+                              
+                              <strong>B98B</strong>
+                              
+                              
+                              
+                              
+                              
+                              from
+2/99.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-a156/en/">https://sloeber94.github.io/elrnDB-a156/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>3350E vehicle direction control system vdc · Alfa 156</title>
+<meta name="description" content="system description. all engines; all production periods. Descriptions &gt; 33 BRAKING SYSTEM &gt; 3350 DRIVE CONTROL&#x27; &gt; 3350E vehicle direction control system vdc">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Alfa 156 workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="3232805.html">Descriptions</a> › <a href="3232913.html">33 BRAKING SYSTEM</a> › <a href="3232925.html">3350 DRIVE CONTROL&#x27;</a> › <span>3350E vehicle direction control system vdc</span></nav>
+<h1><span class="code">3350E</span> vehicle direction control system vdc</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Descriptions &gt; 33 BRAKING SYSTEM &gt; 3350 DRIVE CONTROL&#x27; &gt; 3350E vehicle direction control system vdc</dd>
+<dt>Kind</dt><dd>system description</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-a156/en/#/3232928">https://sloeber94.github.io/elrnDB-a156/en/#/3232928</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; production: da 03/02 a 09/03, da 10/03</p><h2>SPECIFCATIONS</h2><h2>General characteristics</h2><p>The V.D.C. system (Vehicle Dynamic Control
+System) controls the vehicle during dynamic manoeuvres on the road
+and intervenes in emergency conditions.</p><p>In any type of grip conditions this system
+increases the safety margin for the vehicle in the case of sudden manoeuvres
+or initial losses of grip (passing through puddles, icy sections,
+etc.).</p><p>Whilst the anti-lock braking system (ABS)
+maintains the stability of the vehicle during rapid deceleration
+and the traction control systems (ASR/TCS) work during rapid acceleration,
+the V.D.C. system has been designed to keep the vehicle stable in
+the case of sudden manoeuvres in order to improve the vehicle&#x27;s
+road holding, especially over slippery surfaces.</p><p>In effect the V.D.C. system reacts to both
+vehicle oversteer and understeer and is equipped to return it to
+a stable condition to allow the driver to maintain full control
+of the vehicle.</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>The VDC comes on automatically
+when the vehicle is started up and cannot be switched off.</p></aside><figure class="photo"><img class="zoomable" src="../../../media/2011961.jpg" alt="" loading="lazy"></figure><p>1 - Steering angle sensor
+	2 - Yaw/side acceleration sensor (integrated within a single
+component)
+	3 - VDC warning light in instrument panel</p><h2>PERFORMANCE</h2><p>The V.D.C.:</p><ul><li>recognizes the wheels&#x27; longitudinal or lateral loss
+of grip;</li><li>controls all the vehicle&#x27;s driving conditions, from
+braking to acceleration to ensure the direction and stability of
+the geometry;</li><li>assists the driver, even if they are not particularly
+experienced, to control critical situations within certain limits.</li></ul><h2>SYSTEM SPECIFICATIONS</h2><h3>Devices adopted</h3><p>The V.D.C. system is managed by the ABS
+control unit with the restriction that only vehicles equipped with ABS/ASR
+can be fitted with this new function.</p><p>The control unit processes the signals from the following sensors:</p><ul><li>steering angle sensor,</li><li>side acceleration sensor and slewing sensor,</li><li>engine operating conditions;</li><li>wheel rpm sensor,</li></ul><p>and uses special algorhythms in the software to obtain the values for dynamic control:</p><ul><li>sliding of the wheels,</li><li>drifting of the axles,</li><li>wheel geometry angles, etc.</li></ul><p>From these figures the system correctly
+interprets any mistakes made by the driver and returns the vehicle
+to a stable condition.</p><p>In addition to the above mentioned sensors, the minimum interface requirements for the vehicle to fit the system are:</p><ul><li>high speed CAN line,</li><li>power unit with specific brake pump,</li><li>specific ABS unit,</li><li>instrument panel with special active type warning lights.</li></ul><h2>OPERATING</h2><h2>Operating principle</h2><p>The basic idea behind the V.D.C. consists
+of comparing the nominal parameters (processed by the control unit
+on the basis of the speed of the 4 wheels, steering angle, slewing
+speed, lateral acceleration, braking torque and engine torque) with
+the actual parameters in a given driving situation.</p><p>In effect, on the basis of the input parameters
+it is possible to calculate, using a very complex mathematical model,
+whether the vehicle is taking a bend within the grip limits or whether
+it is about to skid (oversteer/understeer).</p><p>Controlling the dynamics of the vehicle
+in extreme conditions is certainly second nature for a professional driver,
+but can be complicated for a &#x27;normal&#x27; driver who may find themselves
+in emergency conditions. The V.D.C. system intervenes in such cases,
+acting to restore driving conditions which are compatible with the current
+grip conditions.</p><p>The V.D.C. system uses two sensors, one
+of which &#x27;reads&#x27; the slewing speed, or the rotation around the vertical
+axis of the vehicle.</p><p>The sensor sensor, on the other hand, detects
+lateral acceleration. On the basis of this data, the V.D.C. understands
+whether the vehicle is about to skid at the front or the back (oversteer/understeer).</p><p>In order to make it possible to control
+these critical situations, the system is capable of varying the
+injection parameters to manage the engine power and decelerate each
+of the four wheels individually thereby producing a slewing moment
+which is opposed to the one causing the instability in relation
+to the normal trajectory.</p><p>If the vehicle loses grip at the rear, this
+movement is recovered by deceleration aimed at the outer wheels thereby
+restoring the necessary side grip to the rear wheels.</p><p>If the loss in grip involves the front carriage,
+the system implements a reduction in power through choking.</p><h3>Button/warning light</h3><p>When the key is turned to the ON position,
+the VDC warning light in the instrument panel should come on and
+go off after about 4 seconds.</p><p>If the warning light does not go out, or
+remains on whilst driving, this indicates a failure in the system.</p><p>If the warning light flashes during driving,
+this means that the VDC system has intervened.</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>The Infocenter, in turn, signals
+the fault by the warning light, together with the message, coming
+on.</p></aside><figure class="photo"><img class="zoomable" src="../../../media/2042213.jpg" alt="" loading="lazy"></figure><p>1 - ASR warning light in button
+	2 - EBD warning light in instrument panel
+	3 - ASR warning light in instrument panel
+	4 - VDC warning light in instrument panel</p><p>In the case of problems the VDC and ASR
+systems switch off automatically and the VDC warning light in the instrument
+panel and the ASR warning light on the button come on constantly.</p><p>If the fault only involves the VDC system,
+the warning light in the instrument panel comes on whilst the warning
+light on the ASR button remains off and the operation of the ASR
+system is still enabled.</p><p>If, on the other hand, the fault only affects
+the ASR, both systems are disabled and the VDC warning light in the
+instrument panel and the warning light on the ASR button come on
+constantly.</p><p>If the VDC or ASR systems are not working
+properly, the vehicle behaves like a version on which these systems
+are not fitted.</p><p>The table below summarizes the warning light
+readings in the different operating conditions.</p><div class="table"><table><tr><th></th><th><p>System status</p></th><th><p>ASR warning light on button</p></th><th><p>EBD warning light in instrument panel</p></th><th><p>ABS warning light in instrument panel</p></th><th colspan="1"><p>VDC warning light in instrument panel</p></th></tr><tr><td><p>Check (4s)</p></td><td><p>EBD/ABS/ASR/VDC OFF for the first 500ms</p></td><td><p>ON</p></td><td><p>ON</p></td><td><p>ON</p></td><td colspan="1"><p>ON</p></td></tr><tr><td><p>Running</p></td><td><p>EBD/ABS/ASR/VDC ON</p></td><td><p>OFF</p></td><td><p>OFF</p></td><td><p>OFF</p></td><td colspan="1"><p>OFF</p></td></tr><tr><td><p>ASR deactivated manually</p></td><td><p>EBD/ABS/VDC ON ASR OFF</p></td><td><p>ON</p></td><td><p>OFF</p></td><td><p>OFF</p></td><td colspan="1"><p>OFF</p></td></tr><tr><td><p>EBD faulty</p></td><td><p>EBD/ABS/ASR/VDC OFF</p></td><td><p>ON</p></td><td><p>ON</p></td><td><p>ON</p></td><td colspan="1"><p>ON</p></td></tr><tr><td><p>ABS faulty</p></td><td><p>EBD ON ABS/ASR/VDC OFF</p></td><td><p>ON</p></td><td><p>OFF</p></td><td><p>ON</p></td><td colspan="1"><p>ON</p></td></tr><tr><td><p>ASR faulty</p></td><td><p>EBD/ABS/VDC(1) ON ASR OFF</p></td><td><p>ON</p></td><td><p>OFF</p></td><td><p>OFF</p></td><td colspan="1"><p>ON</p></td></tr><tr><td><p>VDC faulty</p></td><td><p>EBD/ABS/ASR ON VDC OFF</p></td><td><p>OFF</p></td><td><p>OFF</p></td><td><p>OFF</p></td><td colspan="1"><p>ON</p></td></tr><tr><td><p>VDC/ASR faulty</p></td><td><p>EBD/ABS ON VDC/ASR OFF</p></td><td><p>ON</p></td><td><p>OFF</p></td><td><p>OFF</p></td><td colspan="1"><p>ON</p></td></tr><tr><td><p>ASR/VDC activated</p></td><td><p>EBD/ABS/ASR/VDC ON</p></td><td><p>OFF</p></td><td><p>OFF</p></td><td><p>OFF</p></td><td colspan="1"><p>INTERMITTENT</p></td></tr><tr><td><p>Insufficient brake fluid level or parking
+brake on</p></td><td><p>EBD/ABS/ASR/VDC ON</p></td><td><p>OFF</p></td><td><p>ON</p></td><td><p>OFF</p></td><td colspan="1"><p>OFF</p></td></tr></table></div><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>(1): VDC operation limited to intervention on the brakes.</p></aside><h2>COMPONENT
+DESCRIPTION</h2><h2>Steering sensor</h2><h3>Specifications</h3><h4>Operation</h4><p>The steering angle sensor detects steering
+wheel angle and turning speed and makes the data available to the C-CAN
+network (steered angle sensor node).</p><figure class="photo"><img class="zoomable" src="../../../media/2042214.jpg" alt="" loading="lazy"></figure><h3>Components</h3><h4>Location</h4><p>The sensor is incorporated in the steering
+column switch unit and cannot be dismantled on its own.</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>If removal and refitting operations
+are carried out on the steering wheel, steering column and power steering/alignment
+adjustment, the sensor must be electronically calibrated using a
+Tester.</p></aside><h4>Pin out</h4><p>the sensor comes with a four pin connector,
+two pins are used to supply the sensor and two for the C-CAN line</p><p>Pin 1, Earth</p><p>Pin 2, +15 positive</p><p>Pin 3, C-CAN H Line</p><p>Pin 4, C-CAN H Line</p><h3>Operation</h3><p>The sensor measures the following using its internal electronic system:</p><ul><li>the steering column angular position</li><li>the steering column rotation speed.</li></ul><p>This information is processed directly by
+the sensor and made available to the brake node via the C-CAN network</p><p>The sensor has a measurement range of 1560° and
+a resolution of 0.1 °.</p><p>The sensor must be set  to the steering
+wheel position in order to work properly. This setting is carried
+out using a Tester (see instructions provided with the EXAMINER
+device).</p><p>The sensor comes with an automatic diagnosis
+function and is able to check the plausibility of information processed.</p><h2>Lateral yaw/acceleration sensor</h2><h3>Specifications</h3><h4>Operation</h4><p>The lateral yaw/acceleration sensor detects
+rotations about the vehicle vertical axis (yaw) and measures side accelerations.</p><p>It is connected directly to the ABS control
+unit.</p><figure class="photo"><img class="zoomable" src="../../../media/2042215.jpg" alt="" loading="lazy"></figure><p>Sensor operational specifications are as
+follows:</p><p>Supply voltage:</p><ul><li>Minimum value 8.2 V</li><li>Maximum value 16V</li><li>Rated value 12V</li></ul><p>Operating temperature:</p><ul><li>Minimum value -40° C</li><li>Maximum value +85° C</li></ul><p>Current uptake at 12 V:</p><ul><li>Rated value 70mA</li></ul><p>Yaw sensor:</p><ul><li>Measurement range  +/-100 °/s</li><li>Resolution +/-0.2 °/s</li></ul><p>Side acceleration sensor</p><ul><li>Measurement range +/-1.8 g</li></ul><h3>Components</h3><p>The sensor consists of a plastic case that
+encloses the sensitive parts that detect lateral yaw and acceleration and
+also an electronic control system.</p><p>The sensor comes with a six pin connector
+- all pins are connected.</p><p>Pin1 - Yaw sensor reference signal</p><p>Pin2 - ABS control unit yaw sensor test
+signal</p><p>Pin3 - 12V sensor supply</p><p>Pin4 - Yaw signal in °/Sec</p><p>Pin5 - Side acceleration signal in G</p><p>Pin6 - Earth</p><h4>Location</h4><p>The sensor is located at the centre of gravity
+beneath the central console near the Air Bag control unit</p><figure class="photo"><img class="zoomable" src="../../../media/2042216.jpg" alt="" loading="lazy"></figure><h3>Operation</h3><p>The sensor is supplied directly by the ABS
+control unti and supplies a yaw and acceleration signal simultaneously
+via its sensitive elements.</p><p>The yaw sensor is processed directly by
+the sensor and sent to the ABS control unit with a superimposed reference
+signal.</p><p>Yaw signal range is between:</p><ul><li>lower limit 0.65V</li><li>upper limit 4.35V</li><li>reference signal 2.5V.</li></ul><figure class="photo"><img class="zoomable" src="../../../media/2042217.jpg" alt="" loading="lazy"></figure><p>1 - Upper limit
+	2 - Reference signal
+	3 - Lower limit</p><p>The ABS control unit supplies an alternating
+signal to the sensor  for testing and safety functions.</p></section>
+
+<h2>Topics that link to this page (2)</h2><ul><li><a href="3232926.html">3350A anti - spin regulation devices</a> <span class="meta">system description · all engines; all production periods</span></li><li><a href="3232933.html">4110A steering control</a> <span class="meta">system description · all engines; all production periods</span></li></ul>
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-a156/en/">https://sloeber94.github.io/elrnDB-a156/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

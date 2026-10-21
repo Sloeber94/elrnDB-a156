@@ -1,0 +1,912 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E5030 PETROL ENGINE ELECTRONIC MANAGEMENT - Functional description · Alfa 156</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.6 TS ; production: fino a 03/98, da 04/98 a 02/99. Electrical equipment &gt; Electrical functions &gt; E50 Engine control and management systems &gt; E5030 PETROL ENGINE ELECTRONIC MANAGEMENT &gt; E5030 PETROL ENGINE ELECTRONIC MANAGEMENT - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Alfa 156 workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="3233696.html">Electrical equipment</a> › <a href="3233697.html">Electrical functions</a> › <a href="3234398.html">E50 Engine control and management systems</a> › <a href="3234523.html">E5030 PETROL ENGINE ELECTRONIC MANAGEMENT</a> › <span>E5030 PETROL ENGINE ELECTRONIC MANAGEMENT - Functional description</span></nav>
+<h1><span class="code">E5030</span> PETROL ENGINE ELECTRONIC MANAGEMENT - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; Electrical functions &gt; E50 Engine control and management systems &gt; E5030 PETROL ENGINE ELECTRONIC MANAGEMENT &gt; E5030 PETROL ENGINE ELECTRONIC MANAGEMENT - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.6 TS ; production: fino a 03/98, da 04/98 a 02/99</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-a156/en/#/3239452">https://sloeber94.github.io/elrnDB-a156/en/#/3239452</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.6 TS ; production: fino a 03/98, da 04/98 a 02/99</p><h3>Functional description</h3><p>The engine control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               monitors
+and controls the entire electronic ignition and injection system.</p><p>The direct supply for the system arrives
+from the battery from the line for the EFI maxifuse of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B5</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>An ignition-operated power supply (15/54)
+is received on a line protected by shunt fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B25</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               is supplied
+directly by the battery at pin 18, via the line protected by fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B35</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The supply controlled by the ignition, on
+the other hand, arrives at pin 27, via the line protected by fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B25</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The main relay J10 controls the entire system: it is energized by an (earth) signal coming from pin 36 of control unit M10 and, as a result, sends a supply:</p><ul><li>to pin 37 of the control unit, via the line protected
+by fuse <strong>B41</strong> ;</li><li>to the petrol pump relay <strong>J15</strong> ;</li><li>to injectors <strong>N70</strong> ;</li><li>to coils <strong>A30</strong> ;</li><li>to air flow meter <strong>K41</strong> , via a line protected by
+fuse <strong>B40</strong> ;</li><li>to the variable valve timing system <strong>J16</strong> , via the
+line protected by fuse <strong>B40</strong> ;</li><li>to fuel vapour recovery solenoid <strong>L10</strong> , via a line
+protected by fuse <strong>B40</strong> ;</li><li>to the idle actuator <strong>N74</strong> , via the line protected
+by fuse <strong>B40</strong> ;</li></ul><p>The fuel pump relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J15</strong>
+                              
+                              
+                              
+                              
+                              
+                              , supplied
+by the main relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J10</strong>
+                              
+                              
+                              
+                              
+                              
+                              , is energized by an (earth) signal
+coming from pin 3 of control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>This supplies power to the fuel pump 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N40</strong>
+                              
+                              
+                              
+                              
+                              
+                              ,
+which is earthed through the inertia switch 
+                              
+                              
+                              
+                              
+                              
+                              <strong>I50</strong>
+                              
+                              
+                              
+                              
+                              
+                              , which cuts
+off the circuit in the case of impact to prevent the danger of fuel
+flowing out.</p><p>The relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J15</strong>
+                              
+                              
+                              
+                              
+                              
+                               also provides a supply
+for the Lambda sensor heater 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K40</strong>
+                              
+                              
+                              
+                              
+                              
+                               via the line protected by
+fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B36</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>Pins 2, 14, 19 and 24 of control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               are
+earthed and act as a reference for the ignition, the injectors,
+the electronic screening and the final power stages, respectively.</p><p>The engine control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               receives
+signals from the various sensors in order to monitor all engine
+operating parameters.</p><p>The rpm sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K46</strong>
+                              
+                              
+                              
+                              
+                              
+                               provides information,
+through a frequency signal sent to pins 48 and 49 of control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                              ,
+concerning the engine speed: these two signals have an extremely
+low intensity and are therefore suitable screened.</p><p>The timing sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K47</strong>
+                              
+                              
+                              
+                              
+                              
+                               receives a
+5 V supply from pin 12 of the control unit and sends a signal where
+the frequency corresponds to the timing at pin 8 of the control
+unit.: the low intensity of the signals requires them to be screened.</p><p>The butterfly position sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K56</strong>
+                              
+                              
+                              
+                              
+                              
+                               is
+supplied at 5 V from pin 12 and receives a reference earth from
+pin 30; it sends, through a potentiometer, a signal proportional
+to the degree of opening of the butterfly to pin 53 of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The engine temperature sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K45</strong>
+                              
+                              
+                              
+                              
+                              
+                              ,
+receives a reference earth from pin 30 of the control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               and
+supplies a signal proportional to the temperature of the engine
+coolant to pin 45 of the control unit.</p><p>The intake air temperature sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K42</strong>
+                              
+                              
+                              
+                              
+                              
+                               receives
+a reference earth from pin 30 of the control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               and
+supplies a signal proportional to the temperature of the air entering
+to pin 54 of the control unit.</p><p>The heated Lambda sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K40</strong>
+                              
+                              
+                              
+                              
+                              
+                               provides
+the control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               with information concerning the correct
+composition of the air/fuel mixture: the signal is sent to pin 28
+of the control unit, whilst pin 10 provides the reference earth:
+the intensity of these two signals is extremely low and therefore
+they are appropriately shielded. Probe 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K40</strong>
+                              
+                              
+                              
+                              
+                              
+                               is heated by a
+resistor in order to ensure it works efficiently even when cold.
+the resistor is supplied by the relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J15</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The knock sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K50</strong>
+                              
+                              
+                              
+                              
+                              
+                               provides information
+concerning detonation conditions by means of a frequency signal
+sent to pin 11 of the control unit and receives a reference earth
+from pin 30. These signals are of extremely low intensity and are
+therefore suitably shielded.</p><p>The air flow meter 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K41</strong>
+                              
+                              
+                              
+                              
+                              
+                               is supplied
+by the relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J10</strong>
+                              
+                              
+                              
+                              
+                              
+                              , receives a reference earth from pin 30
+of the control unit and sends a signal proportional to the air flow rate
+to pin 7.</p><p>Control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               controls the opening
+of the individual injectors 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N70</strong>
+                              
+                              
+                              
+                              
+                              
+                              , via duty-cycle signals sent
+to pins 17 (cyl. 1), 34 (cyl. 2), 16 (cyl. 3) and 35 (cyl. 4).</p><p>Injectors 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N70</strong>
+                              
+                              
+                              
+                              
+                              
+                               receive a power supply
+to enable opening from main relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J10</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               also controls
+the coils 
+                              
+                              
+                              
+                              
+                              
+                              <strong>A30</strong>
+                              
+                              
+                              
+                              
+                              
+                               by means of (earth) signals for the coil primary
+windings, whilst the secondary winding sends an impulse to the spark
+plugs: from pins 1 and 21 for the pair of cylinders 1-4 and from pins
+20 and 38 for cylinders 2-3.</p><p>The primary windings for coils 
+                              
+                              
+                              
+                              
+                              
+                              <strong>A30</strong>
+                              
+                              
+                              
+                              
+                              
+                               receive
+the supply for enabling the opening from the main relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J10</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The idle actuator 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N74</strong>
+                              
+                              
+                              
+                              
+                              
+                               regulates the
+butterfly by-pass line.</p><p>It consists of two windings: one operates
+the opening and the other the by-pass port: it is controlled by
+the control unit through duty-cycle type signals for pins 22 (closing)
+and 4 (opening) of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>Fuel vapour recovery solenoid 
+                              
+                              
+                              
+                              
+                              
+                              <strong>L10</strong>
+                              
+                              
+                              
+                              
+                              
+                               allows
+fuel vapours to pass through to the engine intake where they join
+the mixture entering the combustion chamber.  Valve 
+                              
+                              
+                              
+                              
+                              
+                              <strong>L10</strong>
+                              
+                              
+                              
+                              
+                              
+                              ,
+supplied by main relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J10</strong>
+                              
+                              
+                              
+                              
+                              
+                              , is opened by the control unit
+when the engine is under load via a duty-cycle signal from pin 5
+of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The timing variator 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N76</strong>
+                              
+                              
+                              
+                              
+                              
+                               mechanically
+controls the inlet timing advance: it is operated by the relevant
+relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J16</strong>
+                              
+                              
+                              
+                              
+                              
+                              . This, supplied by the main relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J10</strong>
+                              
+                              
+                              
+                              
+                              
+                              , is
+energized by means of an earth command from the control unit, pin
+52 and thereby supplies the timing variator 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N76</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>Control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               is connected to
+the ALFA ROMEO CODE control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M20</strong>
+                              
+                              
+                              
+                              
+                              
+                               via a specific serial
+line from pin 47;  in this way if the ALFA ROMEO CODE unit does
+not detect a correct code, it does not issue enablement and the
+engine is not started. (
+                              
+                              
+                              
+                              
+                              
+                              <a href="3234721.html">E7010 CODE</a>
+                              
+                              
+                              
+                              
+                              
+                              ).</p><p>The control unit is equipped with a self-test
+system which can be used by connecting the unit to the connector 
+                              
+                              
+                              
+                              
+                              
+                              <strong>R10</strong>
+                              
+                              
+                              
+                              
+                              
+                              :
+it receives signals from pin 55 from the control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               through
+the special diagnostic line. The self-test system also produces
+the signal for the &quot;injection failure&quot; warning light,
+in the instrument 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E15</strong>
+                              
+                              
+                              
+                              
+                              
+                              , which comes from pin 51 of the control
+unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>Module 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E15</strong>
+                              
+                              
+                              
+                              
+                              
+                               receives a supply controlled
+by the ignition (INT) at pin 15 of connector A from the line protected
+by fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B11</strong>
+                              
+                              
+                              
+                              
+                              
+                              : when the earth signal arrives, the &quot;injection
+failure&quot; warning light comes on.</p><p>The speedometer signal (vehicle speed) reaches
+pin 9 of control unit  
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               (
+                              
+                              
+                              
+                              
+                              
+                              <a href="3234310.html">E4021 SPEEDOMETER</a>
+                              
+                              
+                              
+                              
+                              
+                              ).</p><p>The control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               sends a signal
+from pin 6 proportional to the engine speed (
+                              
+                              
+                              
+                              
+                              
+                              <a href="3234270.html">E4020 REV COUNTER INSTRUMENT</a>
+                              
+                              
+                              
+                              
+                              
+                              ).</p><p>The control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               is connected
+to the air conditioning system through pins 32 and 40. This makes
+it possible to adjust the engine idle speed as the load increases
+each time the compressor is switched on or to switch off the compressor
+in the case of high engine speed or load conditions (
+                              
+                              
+                              
+                              
+                              
+                              <a href="3234652.html">E6021 COMPRESSOR ENGAGEMENT</a>
+                              
+                              
+                              
+                              
+                              
+                              ).</p><p>The control unit also controls the engine
+cooling system: pins 25, 26, 43 and 44 control the engagement of
+the appropriate fan (
+                              
+                              
+                              
+                              
+                              
+                              <a href="3234439.html">E5020 ENGINE COOLING</a>
+                              
+                              
+                              
+                              
+                              
+                              ).</p></section>
+<h2>Topics linked from this page (5)</h2><ul><li><a href="3234270.html">E4020 REV COUNTER INSTRUMENT</a> <span class="meta">chapter (index of subtopics) · all engines; production: fino a 03/98, da 04/98 a 02/99, da 03/99 a 01/00, da 02/00 a 01/01; only with equipment: Mechanical gearbox</span></li><li><a href="3234310.html">E4021 SPEEDOMETER</a> <span class="meta">chapter (index of subtopics) · all engines; production: fino a 03/98, da 04/98 a 02/99, da 03/99 a 01/00, da 02/00 a 01/01</span></li><li><a href="3234439.html">E5020 ENGINE COOLING</a> <span class="meta">chapter (index of subtopics) · engines: 1.6 TS , 1.8 TS; production: fino a 03/98, da 04/98 a 02/99, da 03/99 a 01/00; only with equipment: Air Conditioner</span></li><li><a href="3234652.html">E6021 COMPRESSOR ENGAGEMENT</a> <span class="meta">chapter (index of subtopics) · engines: 1.6 TS ; production: fino a 03/98, da 04/98 a 02/99</span></li><li><a href="3234721.html">E7010 CODE</a> <span class="meta">chapter (index of subtopics) · all engines; production: fino a 03/98, da 04/98 a 02/99, da 03/99 a 01/00, da 02/00 a 01/01</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-a156/en/">https://sloeber94.github.io/elrnDB-a156/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

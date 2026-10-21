@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E5020 ENGINE COOLING - Functional description · Alfa 156</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.6 TS , 1.8 TS; production: da 02/00 a 01/01; only with equipment: Air Conditioner. Electrical equipment &gt; Electrical functions &gt; E50 Engine control and management systems &gt; E5020 ENGINE COOLING &gt; E5020 ENGINE COOLING - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Alfa 156 workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="3233696.html">Electrical equipment</a> › <a href="3233697.html">Electrical functions</a> › <a href="3234398.html">E50 Engine control and management systems</a> › <a href="3234467.html">E5020 ENGINE COOLING</a> › <span>E5020 ENGINE COOLING - Functional description</span></nav>
+<h1><span class="code">E5020</span> ENGINE COOLING - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; Electrical functions &gt; E50 Engine control and management systems &gt; E5020 ENGINE COOLING &gt; E5020 ENGINE COOLING - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.6 TS , 1.8 TS; production: da 02/00 a 01/01; only with equipment: Air Conditioner</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-a156/en/#/3239438">https://sloeber94.github.io/elrnDB-a156/en/#/3239438</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.6 TS , 1.8 TS; production: da 02/00 a 01/01; only with equipment: Air Conditioner</p><h3>Functional description</h3><p>The supply for fan 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N11</strong>
+                              
+                              
+                              
+                              
+                              
+                               arrives directly
+from the battery from the line for the maxifuse FAN 1 of 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B99</strong>
+                              
+                              
+                              
+                              
+                              
+                              :
+the fan therefore works when it receives an earth command.</p><p>The specific relays 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J30</strong>
+                              
+                              
+                              
+                              
+                              
+                               and 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J31</strong>
+                              
+                              
+                              
+                              
+                              
+                               for
+the cooling system have coils supplied by the line controlled by
+the ignition (15/54) protected by fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>F4</strong>
+                              
+                              
+                              
+                              
+                              
+                               of the additional
+fuse box 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B98A</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>They are energized by an earth signal coming
+from the engine control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>If the engine coolant temperature reaches
+the first temperature stage, or the 4 stage pressure switch 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K10</strong>
+                              
+                              
+                              
+                              
+                              
+                               (pin
+3) signals to the control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               that the first pressure
+stage has been reached, then the control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               sends an
+earth signal to the 1st speed fan relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J30</strong>
+                              
+                              
+                              
+                              
+                              
+                               which energizes
+the coil. The relay then sends an earth signal which, via the additional
+resistance 
+                              
+                              
+                              
+                              
+                              
+                              <strong>O10</strong>
+                              
+                              
+                              
+                              
+                              
+                              , operates the fan 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N11</strong>
+                              
+                              
+                              
+                              
+                              
+                               which rotates
+at the first (slow) speed.</p><p>If the engine coolant reaches a higher temperature
+level or the 4-stage pressure switch 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K10</strong>
+                              
+                              
+                              
+                              
+                              
+                               (pin 6) signals
+to the control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               that a higher pressure stage has
+been reached, then the control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               sends an earth signal
+to the 2nd speed fan relay 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J31</strong>
+                              
+                              
+                              
+                              
+                              
+                               which energizes the coil.
+ The relay then sends an earth signal directly to the fan 
+                              
+                              
+                              
+                              
+                              
+                              <strong>N11</strong>
+                              
+                              
+                              
+                              
+                              
+                               which
+rotates at the maximum speed.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-a156/en/">https://sloeber94.github.io/elrnDB-a156/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E4020 REV COUNTER INSTRUMENT - Functional description · Alfa 156</title>
+<meta name="description" content="functional description (how the circuit works). all engines; production: da 02/01 a 02/02; only with equipment: Smart gearbox. Electrical equipment &gt; Electrical functions &gt; E40 Instrument panel &gt; E4020 REV COUNTER INSTRUMENT &gt; E4020 REV COUNTER INSTRUMENT - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Alfa 156 workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="3233696.html">Electrical equipment</a> › <a href="3233697.html">Electrical functions</a> › <a href="3234269.html">E40 Instrument panel</a> › <a href="3234286.html">E4020 REV COUNTER INSTRUMENT</a> › <span>E4020 REV COUNTER INSTRUMENT - Functional description</span></nav>
+<h1><span class="code">E4020</span> REV COUNTER INSTRUMENT - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; Electrical functions &gt; E40 Instrument panel &gt; E4020 REV COUNTER INSTRUMENT &gt; E4020 REV COUNTER INSTRUMENT - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; production: da 02/01 a 02/02; only with equipment: Smart gearbox</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-a156/en/#/3239393">https://sloeber94.github.io/elrnDB-a156/en/#/3239393</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; production: da 02/01 a 02/02; only with equipment: Smart gearbox</p><h3>Functional description</h3><p>The supply for the rev counter module 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E15</strong>
+                              
+                              
+                              
+                              
+                              
+                               reaches
+pins 10 and 16 of connector A directly from the battery. (maxifuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>J/B2</strong>
+                              
+                              
+                              
+                              
+                              
+                               of 
+
+                              
+                              
+                              
+                              
+                              
+                              <strong>B99</strong>
+                              
+                              
+                              
+                              
+                              
+                              ) via fuses 
+                              
+                              
+                              
+                              
+                              
+                              <strong>F2</strong>
+                              
+                              
+                              
+                              
+                              
+                               and 
+                              
+                              
+                              
+                              
+                              
+                              <strong>F3</strong>
+                              
+                              
+                              
+                              
+                              
+                               of junction unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B1</strong>
+                              
+                              
+                              
+                              
+                              
+                              ;
+this supply is used by the check device for the exterior lights.</p><p>The rev counter module 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E15</strong>
+                              
+                              
+                              
+                              
+                              
+                               also receives
+a supply controlled by the ignition (INT) at pin 15 of connector
+B from the line protected by fuse 
+                              
+                              
+                              
+                              
+                              
+                              <strong>F4</strong>
+                              
+                              
+                              
+                              
+                              
+                               of the additional fuse
+box 
+                              
+                              
+                              
+                              
+                              
+                              <strong>B98B</strong>
+                              
+                              
+                              
+                              
+                              
+                              . Pin 14 of connector B is earthed.</p><p>The engine rpm signal, which is different
+for each engine type, comes from the engine management control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M10</strong>
+                              
+                              
+                              
+                              
+                              
+                               to
+pin 6 of connector B.</p><p>Insufficient engine oil pressure is signalled
+at pin 5 of connector B of module 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E15</strong>
+                              
+                              
+                              
+                              
+                              
+                               by the earth signal
+coming from sensor 
+                              
+                              
+                              
+                              
+                              
+                              <strong>K30</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>In particular, for the SELESPEED version,
+the line - pin 12 of connector B of module 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E15</strong>
+                              
+                              
+                              
+                              
+                              
+                               - connecting
+to the gearbox management control unit 
+                              
+                              
+                              
+                              
+                              
+                              <strong>M54,</strong>
+                              
+                              
+                              
+                              
+                              
+                               is used for the
+instrument&#x27;s gear indicator display and the &#x27;automatic transmission fault&#x27;
+warning light.</p><p>The control for the buzzer, located in the
+instrument 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E15</strong>
+                              
+                              
+                              
+                              
+                              
+                              , reaches pin 13 of connector B of the module 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E15</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>The SELESPEED
+                              
+                              
+                              
+                              
+                              
+                              <strong>M54</strong>
+                              
+                              
+                              
+                              
+                              
+                              control unit also
+receives an engine rpm signal, coming from pin 8 of connector B
+of module 
+                              
+                              
+                              
+                              
+                              
+                              <strong>E15</strong>
+                              
+                              
+                              
+                              
+                              
+                              .</p><p>For all the other warning lights, refer
+to the diagrams relating to the components to which they refer.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-a156/en/">https://sloeber94.github.io/elrnDB-a156/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>
